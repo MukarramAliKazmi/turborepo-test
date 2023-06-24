@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
 import { FaChevronRight } from 'react-icons/fa'
-import { SidebarLink, SidebarLinkProps } from '@/components/sidebar-link'
+import { SidebarLink, SidebarLinkProps } from '@/components/SidebarLink'
 
 export type SidebarItemCollapsibleProps = {
   title: string

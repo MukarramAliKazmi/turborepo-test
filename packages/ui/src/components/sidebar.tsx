@@ -1,8 +1,8 @@
 import React from 'react'
-import { SidebarItemCollapsible } from '@/components/sidebar-item-collapsible'
-import { SidebarLink, SidebarLinkProps } from '@/components/sidebar-link'
-import { LogoutButton } from '@/components/logout-button'
-import { SidebarBackdrop } from '@/components/sidebar-backdrop'
+import { SidebarItemCollapsible } from '@/components/SidebarItemCollapsible'
+import { SidebarLink, SidebarLinkProps } from '@/components/SidebarLink'
+import { LogoutButton } from '@/components/LogoutButton'
+import { SidebarBackdrop } from '@/components/SidebarBackdrop'
 
 type SidebarWithHrefProps = {
   title: string

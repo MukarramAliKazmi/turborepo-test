@@ -1,5 +1,5 @@
 import React from 'react'
-import useInputEvents from '@/hooks/use-input-events'
+import useInputEvents from '@/hooks/UseInputEvents'
 
 export interface InputProps extends React.HTMLProps<HTMLInputElement> {
   label: string

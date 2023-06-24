@@ -1,6 +1,6 @@
 import React from 'react'
-import { ToggleSidebarButton } from '@/components/toggle-sidebar-button'
-import { ToggleThemeButton } from '@/components/toggle-theme-button'
+import { ToggleSidebarButton } from '@/components/ToggleSidebarButton'
+import { ToggleThemeButton } from '@/components/ToggleThemeButton'
 
 export interface TopbarProps {
   isSidebarOpen: boolean

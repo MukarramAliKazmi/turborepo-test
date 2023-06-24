@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
-import { Sidebar, SidebarItemProps } from '@/components/sidebar'
-import { Topbar } from '@/components/topbar'
+import { Sidebar, SidebarItemProps } from '@/components/Sidebar'
+import { Topbar } from '@/components/Topbar'
 
 export interface LayoutProps {
   children: React.ReactNode
