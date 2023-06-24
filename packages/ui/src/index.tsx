@@ -1,6 +1,8 @@
 // styles
-import "@/styles.css";
+import '@/styles.css'
 
 // components
-export * from "@/components/Button";
-export * from "@/components/Card";
+export * from '@/components/button'
+export * from '@/components/discipline-card'
+export * from '@/components/input'
+export * from '@/components/layout'

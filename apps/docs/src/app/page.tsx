@@ -1,6 +1,5 @@
 import React from 'react'
 import { Metadata } from 'next'
-import { Button } from 'ui'
 
 export const metadata: Metadata = {
   title: 'Docs - Turborepo Example',
@@ -15,9 +14,6 @@ const Home = () => (
           Turborepo Example
         </span>
       </h1>
-      <div className="mx-auto mt-5 max-w-xl sm:flex sm:justify-center md:mt-8">
-        <Button />
-      </div>
     </main>
   </div>
 )

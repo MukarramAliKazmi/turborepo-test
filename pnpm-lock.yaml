@@ -120,12 +120,19 @@ importers:
       '@types/react': ^18.2.5
       eslint: ^7.32.0
       eslint-config-custom: workspace:*
+      next: ^13.4.1
+      next-themes: ^0.2.1
       postcss: ^8.4.20
       react: ^18.2.0
+      react-icons: ^4.8.0
       tailwind-config: workspace:*
       tsconfig: workspace:*
       tsup: ^6.1.3
       typescript: ^4.9.4
+    dependencies:
+      next: 13.4.1_biqbaboplfbrettd7655fr4n2y
+      next-themes: 0.2.1_2xek2u27flvv5bywadnu4xxgx4
+      react-icons: 4.10.1_react@18.2.0
     devDependencies:
       '@types/react': 18.2.5
       eslint: 7.32.0
@@ -1297,7 +1304,7 @@ packages:
       '@rushstack/eslint-patch': 1.2.0
       '@typescript-eslint/parser': 5.60.0_yfqovispp7u7jaktymfaqwl2py
       eslint: 7.32.0
-      eslint-import-resolver-node: 0.3.6
+      eslint-import-resolver-node: 0.3.7
       eslint-import-resolver-typescript: 3.5.2_4heylg5ce4zxl5r7mnxe6vqlki
       eslint-plugin-import: 2.27.5_6gr676vjjokzz2otjb4f6zzyfm
       eslint-plugin-jsx-a11y: 6.6.1_eslint@7.32.0
@@ -1325,15 +1332,6 @@ packages:
     dependencies:
       eslint: 7.32.0
       eslint-plugin-turbo: 1.10.6_eslint@7.32.0
-    dev: false
-
-  /eslint-import-resolver-node/0.3.6:
-    resolution: {integrity: sha512-0En0w03NRVMn9Uiyn8YRPDKvWjxCWkslUEhGNTdGx15RvPJYQ+lbOlqrlNI2vEAs4pDYK4f/HN2TbDmk5TP0iw==}
-    dependencies:
-      debug: 3.2.7
-      resolve: 1.22.1
-    transitivePeerDependencies:
-      - supports-color
     dev: false
 
   /eslint-import-resolver-node/0.3.7:
@@ -2263,6 +2261,18 @@ packages:
   /natural-compare/1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
 
+  /next-themes/0.2.1_2xek2u27flvv5bywadnu4xxgx4:
+    resolution: {integrity: sha512-B+AKNfYNIzh0vqQQKqQItTS8evEouKD7H5Hj3kmuPERwddR2TxvDSFZuTj6T7Jfn1oyeUyJMydPl1Bkxkh0W7A==}
+    peerDependencies:
+      next: '*'
+      react: '*'
+      react-dom: '*'
+    dependencies:
+      next: 13.4.1_biqbaboplfbrettd7655fr4n2y
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    dev: false
+
   /next/13.4.1_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-JBw2kAIyhKDpjhEWvNVoFeIzNp9xNxg8wrthDOtMctfn3EpqGCmW0FSviNyGgOSOSn6zDaX48pmvbdf6X2W9xA==}
     engines: {node: '>=16.8.0'}
@@ -2596,6 +2606,14 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
+    dev: false
+
+  /react-icons/4.10.1_react@18.2.0:
+    resolution: {integrity: sha512-/ngzDP/77tlCfqthiiGNZeYFACw85fUjZtLbedmJ5DTlNDIwETxhwBzdOJ21zj4iJdvc0J3y7yOsX3PpxAJzrw==}
+    peerDependencies:
+      react: '*'
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /react-is/16.13.1:
