@@ -1,10 +1,10 @@
-import React from "react";
-import { Metadata } from "next";
-import { Button } from "ui";
+import React from 'react'
+import { Metadata } from 'next'
+import { Button } from 'ui'
 
 export const metadata: Metadata = {
-  title: "Docs - Turborepo Example",
-};
+  title: 'Docs - Turborepo Example',
+}
 
 const Home = () => (
   <div className="flex min-h-screen flex-col items-center justify-center py-2">
@@ -20,6 +20,6 @@ const Home = () => (
       </div>
     </main>
   </div>
-);
+)
 
-export default Home;
+export default Home
