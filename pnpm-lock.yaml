@@ -16,26 +16,34 @@ importers:
       prettier-plugin-tailwindcss: 0.1.13_prettier@2.8.0
       turbo: 1.10.6
 
-  apps/docs:
+  apps/admin:
     specifiers:
+      '@reduxjs/toolkit': ^1.9.5
       '@types/node': ^18.11.17
       '@types/react': ^18.2.5
       '@types/react-dom': ^18.2.4
       autoprefixer: ^10.4.13
       eslint-config-custom: workspace:*
       next: ^13.4.1
+      next-redux-wrapper: ^8.1.0
+      next-themes: ^0.2.1
       postcss: ^8.4.20
       react: ^18.2.0
       react-dom: ^18.2.0
+      react-redux: ^8.1.1
       tailwind-config: workspace:*
       tailwindcss: ^3.2.4
       tsconfig: workspace:*
       typescript: ^4.9.4
       ui: workspace:*
     dependencies:
+      '@reduxjs/toolkit': 1.9.5_b74wrr2de7fkro4nxddtl5rd7q
       next: 13.4.1_biqbaboplfbrettd7655fr4n2y
+      next-redux-wrapper: 8.1.0_5jmjux276uxnkufl2rrwu6xxue
+      next-themes: 0.2.1_2xek2u27flvv5bywadnu4xxgx4
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
+      react-redux: 8.1.1_u6mrndvtaurzx3ldkk3kwro73y
       ui: link:../../packages/ui
     devDependencies:
       '@types/node': 18.11.17
@@ -49,7 +57,48 @@ importers:
       tsconfig: link:../../packages/tsconfig
       typescript: 4.9.4
 
-  apps/web:
+  apps/student:
+    specifiers:
+      '@reduxjs/toolkit': ^1.9.5
+      '@types/node': ^18.11.17
+      '@types/react': ^18.2.5
+      '@types/react-dom': ^18.2.4
+      autoprefixer: ^10.4.13
+      eslint-config-custom: workspace:*
+      next: ^13.4.1
+      next-redux-wrapper: ^8.1.0
+      next-themes: ^0.2.1
+      postcss: ^8.4.20
+      react: ^18.2.0
+      react-dom: ^18.2.0
+      react-redux: ^8.1.1
+      tailwind-config: workspace:*
+      tailwindcss: ^3.2.4
+      tsconfig: workspace:*
+      typescript: ^4.9.4
+      ui: workspace:*
+    dependencies:
+      '@reduxjs/toolkit': 1.9.5_b74wrr2de7fkro4nxddtl5rd7q
+      next: 13.4.1_biqbaboplfbrettd7655fr4n2y
+      next-redux-wrapper: 8.1.0_5jmjux276uxnkufl2rrwu6xxue
+      next-themes: 0.2.1_2xek2u27flvv5bywadnu4xxgx4
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      react-redux: 8.1.1_u6mrndvtaurzx3ldkk3kwro73y
+      ui: link:../../packages/ui
+    devDependencies:
+      '@types/node': 18.11.17
+      '@types/react': 18.2.5
+      '@types/react-dom': 18.2.4
+      autoprefixer: 10.4.13_postcss@8.4.20
+      eslint-config-custom: link:../../packages/eslint-config-custom
+      postcss: 8.4.20
+      tailwind-config: link:../../packages/tailwind-config
+      tailwindcss: 3.2.4_postcss@8.4.20
+      tsconfig: link:../../packages/tsconfig
+      typescript: 4.9.4
+
+  apps/teacher:
     specifiers:
       '@reduxjs/toolkit': ^1.9.5
       '@types/node': ^18.11.17
@@ -761,6 +810,7 @@ packages:
   /browserslist/4.21.4:
     resolution: {integrity: sha512-CBHJJdDmgjl3daYjN5Cp5kbTf1mUhZoS+beLklHIvkOWscs83YAhLlF3Wsh/lciQYAcbBJgTOD44VtG31ZM4Hw==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
+    hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001434
       electron-to-chromium: 1.4.284
