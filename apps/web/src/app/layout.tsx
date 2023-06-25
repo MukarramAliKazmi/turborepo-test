@@ -1,11 +1,16 @@
 import React from 'react'
 import '@/styles/globals.css'
-// include styles from the ui package
+import { ThemeProvider } from '@/components/ThemeProvider'
+import { ReduxProvider } from '@/components/ReduxProvider'
 import 'ui/styles.css'
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => (
-  <html lang="en" className="bg-zinc-900">
-    <body>{children}</body>
+  <html lang="en">
+    <body>
+      <ReduxProvider>
+        <ThemeProvider>{children}</ThemeProvider>
+      </ReduxProvider>
+    </body>
   </html>
 )
 

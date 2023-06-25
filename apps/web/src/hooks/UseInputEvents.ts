@@ -1,3 +1,5 @@
+'use client'
+
 import React, { useState } from 'react'
 
 type InputProps = React.HTMLProps<HTMLInputElement>
